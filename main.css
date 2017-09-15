@@ -1,0 +1,54 @@
+/* dark blue #556270 */
+/* teal #4ECDC4 */
+/* lime #C7F464 */
+/* salmon #FF6B6B */
+/* red #C44D58 */
+
+body, h1, h2, h3, h4, h5, h6, p, div {
+    font-family: 'Roboto', sans-serif;
+}
+
+#section0, #section1, #section2, #section3 {
+  text-align: center;
+} 
+
+h1 {
+  font-size: 70px;
+  font-weight: 100;
+}
+
+h1, h3 {
+  margin: 0;
+}
+
+sup {
+  font-weight: 300;
+}
+
+#section0 p {
+  text-align: left;
+  max-width: 700px;
+}
+
+#section0 {
+  color: #556270;
+}
+
+#section0 h3 {
+  font-weight: 400;
+  padding: 0 10%;
+}
+
+.description {
+  font-family: 'Merriweather';
+  font-weight: 300;
+  padding: 0 10% 0 20px;
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+  max-width: 700px;
+}
+
+#section1 {
+  color: white;
+}

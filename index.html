@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>fullPage.js A simple Demo</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage very simple demo." />
+	<meta name="keywords"  content="fullpage,jquery,demo,simple" />
+	<meta name="Resource-type" content="Document" />
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="main.css" />
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#C7F464', '#556270', '#4ECDC4', '#FF6B6B', '#C44D58']
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<div id="fullpage">
+	<div class="section active" id="section0">
+    <h1>Teach My Gospel</h1>
+    <h3><sup>*</sup>Worksheets to discipline your little ones</h3>
+    <div class="description">
+        <p><sup>*</sup> Yo. Hi. We're young LDS parents of four pretty good kids under the age of 8. Probably the best parents in the world. But sometimes them chilluns make bad decisions and taking away toys, timeouts, shouting, and zipties just don't work like they used to. So we came up with a different approach. Now we make our kids copy scriptures until they can teach us the principle. And now we make worksheets for them.</p>
+        <p>Happy disciplining.</p>
+    </div>
+  </div>
+	<div class="section" id="section1">
+    <h1>Pick Your Principle</h1>
+    <div>
+        <select>
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select>
+    </div>
+	</div>
+	<div class="section" id="section2">
+    <h1>Awesome. Here's your worksheet.</h1>
+  </div>
+	<div class="section" id="section3">
+    <h1>Oh you want more?</h1>
+  </div>
+</div>
+
+</body>
+</html>
