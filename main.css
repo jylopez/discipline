@@ -80,7 +80,7 @@ sup {
   right: 10px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   .description {
     font-size: 8px;
   }
