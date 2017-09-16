@@ -37,6 +37,7 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
+				anchors: ['anchor-section0', 'anchor-section1', 'anchor-section2', 'anchor-section3'],
 				sectionsColor: ['#C7F464', '#556270', '#4ECDC4', '#FF6B6B', '#C44D58']
 			});
 		});
@@ -72,7 +73,8 @@
 				<option value="reverence">Reverence</option> -->
 				<option value="work">Work</option>
 			</select>
-    </div>
+		</div>
+		<div class="down-icon"></div>
 	</div>
 	<div class="section" id="section2">
 		<h1 class="worksheet-header">Doh. You gotta select a principle above.</h1>
@@ -127,6 +129,7 @@
 		if (value) {
 			$( ".quote" ).replaceWith( `<h6 class="quote">"${principles[value].quote}"</h6>` );
 			$( ".worksheet-header" ).replaceWith( `<h1 class="worksheet-header">Awesome. Here's your worksheet.</h1>` );
+			$( ".down-icon" ).replaceWith( `<div class="down-icon"><a href="#anchor-section2"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a></div>` );
 			$( ".download-button" ).replaceWith( `<a href="${principles[value].worksheetUrl}" class="download-button btn btn-default" target='_blank'>Download Worksheet</a>` );
 		} else {
 			$( ".quote" ).replaceWith( `<h6 class="quote"></h6>` );

@@ -85,3 +85,8 @@ sup {
     font-size: 8px;
   }
 }
+
+.down-icon span {
+  cursor: pointer;
+  color: white;
+}
