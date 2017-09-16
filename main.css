@@ -84,6 +84,12 @@ sup {
   .description {
     font-size: 8px;
   }
+
+  h3 {
+    font-size: 18px;
+    margin-top: 20px;
+
+  }
 }
 
 .down-icon span {
