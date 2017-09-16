@@ -21,6 +21,11 @@ h1, h3 {
   margin: 0;
 }
 
+.btn {
+  border: unset;
+  border-radius: 0;
+}
+
 sup {
   font-weight: 300;
 }
@@ -51,4 +56,24 @@ sup {
 
 #section1 {
   color: white;
+}
+
+.select-container {
+  max-width: 300px;
+  margin: 40px auto;
+}
+
+.quote {
+  font-weight: 100;
+  font-style: italic;
+}
+
+.download-button {
+  margin-top: 40px;
+}
+
+.made-with {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
